@@ -5,10 +5,9 @@ import { useEffect } from "react";
 
 const ContactBtn = ({title}:{title:string}) => {
     
-    const { isModalOpen, toggleModal, exitMenu, exitModal } = useGlobalState();
+    const { isModalOpen, toggleModal, exitMenu } = useGlobalState();
 
     const handleClick = () => {
-        exitModal();
         exitMenu();
         toggleModal();
     }

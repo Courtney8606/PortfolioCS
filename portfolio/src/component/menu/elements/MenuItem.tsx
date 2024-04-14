@@ -1,6 +1,10 @@
+import { useGlobalState } from "@/contexts/GlobalStateContext";
+
 function MenuItem ({title}:{title:string}){
     
-    return <a href={"/#"+title} >{title}</a>;
+    const { exitMenu } = useGlobalState();
+
+    return <a href={"/#"+title} onClick={exitMenu}>{title}</a>;
 }
 
 export default MenuItem;
