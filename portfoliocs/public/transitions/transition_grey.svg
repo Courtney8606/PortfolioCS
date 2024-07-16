@@ -1,0 +1,16 @@
+<!-- Need to add svg gradient colours to tailwind config -->
+
+<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1440 320" transform="rotate(180)">
+    <defs>
+        <filter id="a" x="-50%" y="-50%" width="200%" height="200%">
+            <feOffset dy="20" />
+            <feGaussianBlur stdDeviation="8" result="offset-blur" />
+            <feComposite operator="out" in="SourceGraphic" in2="offset-blur" result="inverse" />
+            <feFlood flood-color="#000" flood-opacity=".5" result="color" />
+            <feComposite operator="in" in="color" in2="inverse" result="shadow" />
+            <feComposite in="shadow" in2="SourceGraphic" />
+        </filter>
+    </defs>
+    <path fill="#1E293B" filter="url(#a)"
+        d="M0,128L18.5,117.3C36.9,107,74,85,111,80C147.7,75,185,85,222,74.7C258.5,64,295,32,332,53.3C369.2,75,406,149,443,154.7C480,160,517,96,554,80C590.8,64,628,96,665,138.7C701.5,181,738,235,775,224C812.3,213,849,139,886,112C923.1,85,960,107,997,128C1033.8,149,1071,171,1108,186.7C1144.6,203,1182,213,1218,197.3C1255.4,181,1292,139,1329,112C1366.2,85,1403,75,1422,69.3L1440,64L1440,320L1421.5,320C1403.1,320,1366,320,1329,320C1292.3,320,1255,320,1218,320C1181.5,320,1145,320,1108,320C1070.8,320,1034,320,997,320C960,320,923,320,886,320C849.2,320,812,320,775,320C738.5,320,702,320,665,320C627.7,320,591,320,554,320C516.9,320,480,320,443,320C406.2,320,369,320,332,320C295.4,320,258,320,222,320C184.6,320,148,320,111,320C73.8,320,37,320,18,320L0,320Z" />
+</svg>
