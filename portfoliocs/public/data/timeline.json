@@ -1,0 +1,29 @@
+{
+  "data": [
+    {
+      "title": "Fullstack Developer",
+      "company": "Freelancing",
+      "when": "June 2024 -",
+      "tasks": "Collaborating with clients to build responsive web applications with API integrations, while modernising and enhancing the user experience.",
+      "tags": ["Javascript", "React", "Python", "PostgreSQL"],
+      "year": "2024"
+    },
+    {
+      "title": "Junior Software Developer",
+      "company": "Makers Academy Bootcamp",
+      "when": "January 2024 - May 2024",
+      "tasks": "Collaborated within teams to translate user requirements into actionable user stories, delivering and deploying high-quality MVP projects within challenging timeframes. A focus on development best practices and methodologies, including OOD, TDD, efficient code, comprehensive test coverage, discovery debugging and Agile practices.",
+      "tags": [
+        "React.js",
+        "Javascript",
+        "Python",
+        "Flask",
+        "Node.js",
+        "Swift/SwiftUI",
+        "PostgreSQL",
+        "MongoDB"
+      ],
+      "year": "2024"
+    }
+  ]
+}

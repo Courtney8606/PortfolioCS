@@ -8,6 +8,11 @@ const config: Config = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    screens: {
+      mobile: { max: "1023px" },
+      desktop: { min: "1024px" },
+      small: { max: "499px" },
+    },
     extend: {
       // Need to add svg gradient colours to tailwind config
       colors: {
@@ -29,6 +34,10 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+      padding: {
+        "5/100": "5%", // Adding 5% padding
+        "10/100": "10%", // Adding 10% padding
       },
     },
   },

@@ -1,7 +1,7 @@
 "use client";
 
 import useScrollPos from "../../hooks/useScrollPos";
-import MenuItem from "../navigation/MenuItem";
+import MenuItem from "../menu/elements/MenuItem";
 
 function Navbar() {
   const isAtTop = useScrollPos();

@@ -1,0 +1,61 @@
+{
+  "data": [
+    {
+      "title": "Montessori Minds Nursery",
+      "image": "/media/Test1.png",
+      "link1": "https://github.com/Courtney8606/Project-Montessori-Minds",
+      "link2": "https://project-montessori-minds.onrender.com/",
+      "tags": [
+        "Python",
+        "Flask",
+        "Javascript",
+        "React,js",
+        "HTML",
+        "CSS",
+        "PostgreSQL"
+      ],
+      "text": "I'm currently working with a client to build a responsive nursery web application, including an employer portal for efficient content management. Content still being finalised prior to launch."
+    },
+    {
+      "title": "Owlets Storytime",
+      "image": "/media/owletsstorytime.png",
+      "link1": "https://github.com/Courtney8606/Owlets-Storytime",
+      "link2": "https://drive.google.com/file/d/1gjReQ7td1_IrEpWx2666BgPDtc5TkOux/view?usp=sharing",
+      "tags": [
+        "Python",
+        "Flask",
+        "Javascript",
+        "React,js",
+        "HTML",
+        "CSS",
+        "PostgreSQL",
+        "Cloudinary"
+      ],
+      "text": "A platform to connect children with long-distance relatives through recording and sharing audio bedtime stories."
+    },
+    {
+      "title": "WanderlustBnB",
+      "image": "/media/wanderlustbnb.png",
+      "link1": "https://github.com/Courtney8606/Project-wanderlustbnb",
+      "link2": "https://drive.google.com/file/d/1n7HOu_zbk5Jycyxv44v9DGJvjvQDGoPO/view?usp=sharing",
+      "tags": ["Python", "Flask", "HTML", "CSS", "PostgreSQL"],
+      "text": "An Airbnb inspired property rental web application."
+    },
+    {
+      "title": "Acebook",
+      "image": "/media/acebook.png",
+      "link1": "https://github.com/Courtney8606/Project-Acebook-Go-React",
+      "link2": "https://drive.google.com/file/d/1lF1o43IuxFa3NGpLeWaPGjpIKhDIxfsM/view?usp=sharing",
+      "tags": ["Javascript", "React.js", "Go", "MongoDB", "HTML", "CSS"],
+      "text": "A Facebook inspired social media platform to create posts and engage with other members’ content."
+    },
+    {
+      "title": "Portfolio Website",
+      "image": "/media/portfolio.png",
+      "link1": "https://github.com/Courtney8606/PortfolioCS",
+      "link2": "",
+      "tags": ["Next.js", "Typescript", "Tailwind CSS"],
+      "text": "You're looking at it! Maker's showed me my aptitude to pick up new languages and tools so I thought I'd take on a challenge building my portfolio."
+    }
+  ]
+}

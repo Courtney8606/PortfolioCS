@@ -6,11 +6,15 @@ function Typing() {
       sequence={[
         // Same substring at the start will only be typed out once, initially
         "Python",
-        500,
+        600,
+        "Flask",
+        600,
         "Javascript",
-        500,
+        600,
         "React.js",
-        500,
+        600,
+        "PostgreSQL",
+        600,
       ]}
       wrapper="span"
       speed={10}
@@ -22,7 +26,7 @@ function Typing() {
         color: "#84ffff",
         fontWeight: "bold",
         display: "inline-block",
-        width: "38.5%",
+        width: "28.5%",
       }}
       repeat={1}
     />
