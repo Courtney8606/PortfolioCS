@@ -1,6 +1,8 @@
 "use client";
 import SocialMedia from "@/app/static/SocialMedia";
 import Typing from "@/app/static/Typing";
+import Link from "next/link";
+import Arrow from "@/app/static/Arrow";
 
 function Hero() {
   return (
@@ -34,6 +36,11 @@ function Hero() {
             className="absolute inset-0 w-full h-full object-contain self-center animate-scalepulse"
             style={{ zIndex: 10, maxHeight: "70%", maxWidth: "100%" }}
           />
+        </div>
+        <div className="desktop:absolute desktop:bottom-10 inset-0 flex items-end py-2 justify-center z-10">
+          <Link href={"/#About"} aria-label="About">
+            <Arrow />
+          </Link>
         </div>
       </div>
     </div>

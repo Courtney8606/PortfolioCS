@@ -22,12 +22,26 @@ const config: Config = {
       },
       animation: {
         scalepulse: "scalepulse 8s ease-in-out infinite",
+        moveFade: "moveFade 2s linear infinite",
       },
       keyframes: {
         scalepulse: {
           "0%": { scale: "1" },
           "50%": { scale: "1.05" },
           "100%": { scale: "1" },
+        },
+        moveFade: {
+          "0%": {
+            opacity: "0",
+            transform: "rotate(45deg) translate(-10px, -10px)",
+          },
+          "50%": {
+            opacity: "1",
+          },
+          "100%": {
+            opacity: "0",
+            transform: "rotate(45deg) translate(10px, 10px)",
+          },
         },
       },
       backgroundImage: {
