@@ -4,7 +4,7 @@
       "title": "Montessori Minds Nursery",
       "image": "/media/Test1.png",
       "link1": "https://github.com/Courtney8606/Project-Montessori-Minds",
-      "link2": "https://project-montessori-minds.onrender.com/",
+      "link2": "https://www.montessori-minds.com/",
       "tags": [
         "Python",
         "Flask",
@@ -14,8 +14,9 @@
         "HTML",
         "CSS"
       ],
-      "text": "I'm currently working with a client to build a responsive nursery web application, including a staff portal for efficient content management. Content still being finalised prior to launch."
+      "text": "Client project: delivered a new company website to modernise and enhance the user experience, including a staff portal to enable direct client content management."
     },
+
     {
       "title": "Owlets Storytime",
       "image": "/media/owletsstorytime.png",
