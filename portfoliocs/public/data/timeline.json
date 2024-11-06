@@ -1,10 +1,18 @@
 {
   "data": [
     {
+      "title": "Test Engineer",
+      "company": "Solirius Consulting",
+      "when": "October 2024 -",
+      "tasks": "A Test Engineer currently specializing in manual testing, expanding my expertise in software engineering languages, tools and processes to enhance my technical proficiency and contribute effectively to quality assurance workflows.",
+      "tags": ["Node.js", "Playwright", "Jira", "Github", "Agile", "PGAdmin"],
+      "year": "2024"
+    },
+    {
       "title": "Fullstack Developer",
       "company": "Freelancing",
       "when": "June 2024 -",
-      "tasks": "Collaborating with clients to build responsive web applications with API integrations, while modernising and enhancing the user experience.",
+      "tasks": "Collaborating with clients to build responsive web applications and modernise and enhance the user experience.",
       "tags": ["Javascript", "React", "Python", "PostgreSQL"],
       "year": "2024"
     },
